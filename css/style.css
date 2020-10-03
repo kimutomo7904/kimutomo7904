@@ -258,6 +258,10 @@ section h2 span {
 		text-align: left;
 	}
 	
+	.col4 p{
+		text-align: center;
+	}
+
 	#map iframe{
 		height: 200px !important;
   }
@@ -447,4 +451,10 @@ section h2 span {
 	section h2{
 		margin: 55px auto;
 	}
+}
+
+/* MESSAGE
+	-----------------*/
+.innerS{
+	text-align:center;
 }
