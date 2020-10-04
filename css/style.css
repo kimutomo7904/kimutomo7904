@@ -96,38 +96,6 @@ section h2 span {
 	padding-bottom: 80px;
 }
 
-
-/* SEC02 Gallery
-------------------------------------------------------------*/
-#sec02{
-	padding: 0 !important;
-}
-
-#sec02 header{
-	display: none;
-}
-
-#gallery{
-	overflow: hidden;
-}
-
-#gallery li{
-	float: left;
-	width: calc(100%/3);
-	line-height: 0;
-}
-#gallery li.full{
-	width: 100%;
-}
-
-
-#gallery img{
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-
 /* SEC03 BRAND
 ------------------------------------------------------------*/
 .col4 .img{
