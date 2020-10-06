@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Note</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/tagcloud.jquery.min.js"></script>
+	<script src="js/particles.js"></script>
 </head>
 
 <body id="top">
@@ -15,14 +16,15 @@
 
 		<div id="sidebar">
 			<div id="sidebarWrap">
-				<h1><img src="images/logo.png" width="87" height="25" alt="logo"></h1>
+				<h1><img src="images/logo (2).png" width="87" height="25" alt="logo"></h1>
 				<nav id="mainnav">
 					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 					<div class="panel">
 						<ul>
 							<li><a href="#top">TOP</a></li>
-							<li><a href="#sec01">MESSAGE</a></li>
-							<li><a href="#sec03">BRAND</a></li>
+							<li><a href="#sec01">ABOUT</a></li>
+							<li><a href="#sec02">RECOMMEND</a></li>
+							<li><a href="#sec03">WORKS</a></li>
 							<li><a href="#sec04">NEW CONTENTS</a></li>
 							<li><a href="#sec05">PLACE</a></li>
 						</ul>
@@ -37,43 +39,73 @@
 		</div>
 
 		<div id="content">
-			<p id="mainImg"><img src="images/ダウンロード.png" alt=""></p>
-			<!-- MESSAGE -->
+			<div id="hoge"></div>
+   <div class = "logo">
+     <div class = "logo-text">
+       Hello World!!
+     </div>
+   </div>
+			<!-- ABOUT -->
 			<section id="sec01">
 				<header>
-					<h2><span>MESSAGE</span></h2>
+					<h2><span>ABOUT</span></h2>
 				</header>
 				<div class="innerS">
 					作ったものとかコツコツあげていくのでよかったら見ていってください。
 				</div>
 			</section>
-			<!-- // MESSAGE -->
-			<!-- GALLERY -->
-
-			<!-- BRAND -->
+			<!-- ABOUT -->
+			<!-- RECOMMEND -->
+			<section id="sec02">
+				<header>
+					<h2><span>RECOMMEND</span></h2>
+				</header>
+				<div class="abc">
+					<h3>最近のおすすめ<br /><span id="movie">映画</span>・<span id="book">本</span>・<span id="music">音楽</span></h3>
+					<div id="tagcloud" class="abc">
+	  				<ul>
+					    <li><a href="#" style="color: blue;">医者が教える本当のサウナ</a></li>
+					    <li><a href="#" style="color: green;">TENNET</a></li>
+					    <li><a href="#">WordPress</a></li>
+					    <li><a href="#">Linux</a></li>
+					    <li><a href="#">PHP</a></li>
+					    <li><a href="#">MySQL</a></li>
+					    <li><a href="#">C言語</a></li>
+					    <li><a href="#">buzz</a></li>
+					  </ul>
+					</div>				
+				</div>
+			</section>
+			<!-- //RECOMMEND -->
+			<!-- WORKS -->
 			<section id="sec03">
 				<header>
-					<h2><span>GALLERY(元ブランド)</span></h2>
+					<h2><span>WORKS</span></h2>
 				</header>
 				<div class="inner">
-					<ul class="col4">
+					<ul class="col4" id="gal">
+						<a href="portfolio.html">
+							<br />
+							<li>
+								<p class="img"><img src="images/logo02.png" width="168" height="168" alt=""></p>
+								<p>Video</p>
+							</li>
+						</a>
+						<a href="https://note.com/kimutomo7904">
+							<li>
+								<p class="img"><img src="images/logo03.png" width="168" height="168" alt=""></p>
+								<p>note</p>
+							</li>
+						</a>
 						<li>
 							<p class="img"><img src="images/logo01.png" width="168" height="168" alt=""></p>
-							<p>Web Site</p>
-						</li>
-						<li>
-							<p class="img"><img src="images/logo02.png" width="168" height="168" alt=""></p>
-							<p>Video</p>
-						</li>
-						<li>
-							<p class="img"><img src="images/logo03.png" width="168" height="168" alt=""></p>
-							<p>note</p>
+							<p>準備中</p>
 						</li>
 					</ul>
 				</div>
 			</section>
-			<!-- // BRAND -->
-			<!-- PROJECT -->
+			<!-- //WORKS -->
+			<!-- NEW CONTENTS -->
 			<section id="sec04">
 				<header>
 					<h2><span>NEW CONTETNTS</span></h2>
@@ -84,8 +116,8 @@
 					</div>
 				</div>
 			</section>
-			<!-- // PROJECT -->
-			<!-- COMPANY -->
+			<!-- //NEW CONTENTS -->
+			<!-- PLACE -->
 			<section id="sec05">
 				<header>
 					<h2><span>よくいる場所</span></h2>
@@ -95,7 +127,6 @@
 						<li>
 							<p>大黒湯</p>
 							<p>〒151-0066<br>東京都渋谷区西原3-24-5</p>
-							<p>e-Mail @.com(木村のメアドです。)</p>
 							<p>出没時間 20:00〜23:00（水曜定休）</p>
 						</li>
 						<li>
@@ -108,14 +139,12 @@
 					</ul>
 				</div>
 			</section>
-			<!-- // COMPANY -->
-
+			<!-- //PLACE -->
 			<footer id="footer">
 				Copyright(c) 2020 Kimura. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
 			</footer>
-
 		</div>
 	</div>
-
+	<script src="js/main.js"></script>
 </body>
 </html>
