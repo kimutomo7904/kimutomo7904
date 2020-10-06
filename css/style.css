@@ -99,11 +99,19 @@ section h2 span {
 
 /* SEC03 BRAND
 ------------------------------------------------------------*/
-.col4 .img{
+.col4 img{
 	margin: 0 auto;
+	display: block;
+	transition:0.5s;
 }
 
+.col4 img:hover {
+	transform:scale(1.1,1.1);
+}
 
+.col4{
+	overflow:hidden;
+}
 
 /* SEC04 PROJECT
 ------------------------------------------------------------*/
@@ -426,4 +434,44 @@ section h2 span {
 	-----------------*/
 .innerS{
 	text-align:center;
+}
+
+.abc{
+	text-align:center;
+	margin: 0 auto;
+}
+
+#movie{
+	color: green;
+}
+#book{
+	color: blue;
+}
+#music{
+	color: red;
+}
+/*•ªŽq‚Ì‚â‚Â
+-------------*/
+
+#hoge{
+  width:100vw;
+  height:100vh;
+  margin:0 auto;
+  background-color:#000;
+}
+
+.logo{
+ position: absolute;
+ top: 50%;
+ left: 40%;
+ margin: 0 auto;
+}
+
+.logo-text{
+ color: #fff;
+ line-height: 100px;
+ text-align: center;
+ font-size: 40px;
+ font-weight: bold;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
