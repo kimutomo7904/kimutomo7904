@@ -427,9 +427,8 @@ section h2 span {
 	}
 	section h2{
 		margin: 55px auto;
-	}
+	}	
 }
-
 /* MESSAGE
 	-----------------*/
 .innerS{
@@ -453,7 +452,7 @@ section h2 span {
 /*•ªŽq‚Ì‚â‚Â
 -------------*/
 
-#hoge{
+#particle{
   width:100vw;
   height:100vh;
   margin:0 auto;
@@ -461,16 +460,18 @@ section h2 span {
 }
 
 .logo{
- position: absolute;
- top: 50%;
- left: 40%;
- margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-webkit- transform: translateY(-50%) translateX(-50%);
+	margin: 0 auto;
 }
 
 .logo-text{
  color: #fff;
  line-height: 100px;
- text-align: center;
+ text-align: left;
  font-size: 40px;
  font-weight: bold;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
