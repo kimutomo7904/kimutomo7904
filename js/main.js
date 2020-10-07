@@ -41,9 +41,9 @@ $(function(){
 
 
 $(document).ready(function () {
-	const element1 = document.getElementById("gal");
+	const element1 = document.querySelector("#wrk");
 	element1.addEventListener("click", () => {
-		$(document.body).fadeOut("fast", () => {});
+		$(document.body).fadeOut("slow", () => {});
 	});
 });
 
@@ -90,14 +90,14 @@ particlesJS('particle',{
         }
       },
       "color":{
-        "value":"#ffffff" //シェイプの色
+        "value":"#ffabce" //シェイプの色
       },
       "opacity":{
         "value":0.5, //シェイプの透明度
         "random":false, //シェイプの透明度をランダムにするか否か
         "anim":{
           "enable":true, //シェイプの透明度をアニメーションさせるか否か
-          "speed":10, //アニメーションのスピード
+          "speed":1, //アニメーションのスピード
           "opacity_min":0.1, //透明度の最小値
           "sync":false //全てのシェイプを同時にアニメーションさせるか否か
         }
@@ -118,7 +118,7 @@ particlesJS('particle',{
       "line_linked":{
         "enable":true, //線を表示するか否か
         "distance":150, //線をつなぐシェイプの間隔
-        "color":"#ffffff", //線の色
+        "color":"#d3d3d3", //線の色
         "opacity":0.4, //線の透明度
         "width":1 //線の太さ
       },
@@ -200,3 +200,27 @@ particlesJS('particle',{
     "resize":true //canvasのサイズ変更にわせて拡大縮小するか否か
   }
 );
+
+$(function(){
+  $("#biglogo").toggle(function(){
+    $("#biglogo").fadeOut(2000, () => {});
+		$(this).attr('src', 'images/IMG_7708.JPG');
+
+  },
+  function(){
+    $(this).attr('src', 'images/logo (2).png');
+  });
+});
+
+$(function(){
+	$(window).scroll(function (){
+		$('.fadein').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight + 200){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});
