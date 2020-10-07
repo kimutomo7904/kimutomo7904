@@ -39,7 +39,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 #mainnav a{
 	color: #000;
-	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-family: 'Comic Sans MS', 'Noto Sans JP',serif;
 }
 
 
@@ -56,7 +56,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 /* ã§í 
 ------------------------------------------------------------*/
 h1, h2{
-	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-family: 'Comic Sans MS', 'Noto Sans JP',serif;
 }
 
 img{
@@ -440,13 +440,13 @@ section h2 span {
 	margin: 0 auto;
 }
 
-#movie{
+.movie{
 	color: green;
 }
-#book{
+.book{
 	color: blue;
 }
-#music{
+.music{
 	color: red;
 }
 /*ï™éqÇÃÇ‚Ç¬
@@ -456,7 +456,7 @@ section h2 span {
   width:100vw;
   height:100vh;
   margin:0 auto;
-  background-color:#000;
+  background-color:white;
 }
 
 .logo{
@@ -476,3 +476,19 @@ section h2 span {
  font-weight: bold;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+#biglogo{
+	opacity:0.5;
+}
+
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, 50px);
+	transition : all 500ms;
+	}
+
+/* âÊñ ì‡Ç…ì¸Ç¡ÇΩèÛë‘ */
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
