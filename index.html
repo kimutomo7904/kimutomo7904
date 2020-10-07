@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="最新技術と自然との調和を目指す">
+	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 	<title>Note</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
@@ -16,7 +16,7 @@
 
 		<div id="sidebar">
 			<div id="sidebarWrap">
-				<h1><img src="images/logo (2).png" width="87" height="25" alt="logo"></h1>
+				<h1><img src="images/logo.png" width="87" height="25" alt="logo"></h1>
 				<nav id="mainnav">
 					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 					<div class="panel">
@@ -42,11 +42,11 @@
 			<div id="particle"></div>
    <div class = "logo">
      <div class = "logo-text">
-       Kimura<br />no<br></nobr>NOTE!
+       <img src="images/logo (2).png" id="biglogo" width="200" height="200">
      </div>
    </div>
 			<!-- ABOUT -->
-			<section id="sec01">
+			<section id="sec01" class="fadein">
 				<header>
 					<h2><span>ABOUT</span></h2>
 				</header>
@@ -56,39 +56,39 @@
 			</section>
 			<!-- ABOUT -->
 			<!-- RECOMMEND -->
-			<section id="sec02">
+			<section id="sec02" class="fadein">
 				<header>
 					<h2><span>RECOMMEND</span></h2>
 				</header>
 				<div class="abc">
-					<h3>最近のおすすめ<br /><span id="movie">映画</span>・<span id="book">本</span>・<span id="music">音楽</span></h3>
+					<h3>最近のおすすめ<br /><span class="movie">映画</span>・<span class="book">本</span>・<span class="music">音楽</span></h3>
 					<div id="tagcloud" class="abc">
 	  				<ul>
-					    <li><a href="#" style="color: blue;">医者が教える本当のサウナ</a></li>
-					    <li><a href="#" style="color: green;">TENNET</a></li>
-					    <li><a href="#">WordPress</a></li>
-					    <li><a href="#">Linux</a></li>
-					    <li><a href="#">PHP</a></li>
-					    <li><a href="#">MySQL</a></li>
-					    <li><a href="#">C言語</a></li>
-					    <li><a href="#">buzz</a></li>
+					    <li><a href="https://www.amazon.co.jp/%E5%8C%BB%E8%80%85%E3%81%8C%E6%95%99%E3%81%88%E3%82%8B%E3%82%B5%E3%82%A6%E3%83%8A%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8-%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%AA%E3%83%BC%E3%83%88%E3%81%AF%E3%81%AA%E3%81%9C%E8%84%B3%E3%81%A8%E4%BD%93%E3%82%92%E3%82%B5%E3%82%A6%E3%83%8A%E3%81%A7%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%88%E3%82%8B%E3%81%AE%E3%81%8B-%E5%8A%A0%E8%97%A4-%E5%AE%B9%E5%B4%87/dp/447811031X" class="book">医者が教える本当のサウナ</a></li>
+					    <li><a href="https://wwws.warnerbros.co.jp/tenetmovie/index.html" class="movie">TENNET</a></li>
+					    <li><a href="https://youtu.be/mPP3SuwLy8Q" class="music">EAZY GO/エレファントカシマシ</a></li>
+					    <li><a href="https://youtu.be/BoZ0Zwab6Oc" class="music">アカシア/BUMP OF CHICKEN</a></li>
+					    <li><a href="https://miyamotomovie.jp/" class="movie">宮本から君へ</a></li>
+					    <li><a href="#"></a></li>
+					    <li><a href="#"></a></li>
+					    <li><a href="#"></a></li>
 					  </ul>
 					</div>				
 				</div>
 			</section>
 			<!-- //RECOMMEND -->
 			<!-- WORKS -->
-			<section id="sec03">
+			<section id="sec03" class="fadein">
 				<header>
 					<h2><span>WORKS</span></h2>
 				</header>
 				<div class="inner">
-					<ul class="col4" id="gal">
-						<a href="portfolio.html">
+					<ul class="col4" id="wrk">
+						<a href="">
 							<br />
 							<li>
 								<p class="img"><img src="images/logo02.png" width="168" height="168" alt=""></p>
-								<p>Video</p>
+								<p>準備中</p>
 							</li>
 						</a>
 						<a href="https://note.com/kimutomo7904">
@@ -97,16 +97,18 @@
 								<p>note</p>
 							</li>
 						</a>
-						<li>
-							<p class="img"><img src="images/logo01.png" width="168" height="168" alt=""></p>
-							<p>準備中</p>
-						</li>
+						<a href="">
+							<li>
+								<p class="img"><img src="images/logo01.png" width="168" height="168" alt=""></p>
+								<p>準備中</p>
+							</li>
+						</a>
 					</ul>
 				</div>
 			</section>
 			<!-- //WORKS -->
 			<!-- NEW CONTENTS -->
-			<section id="sec04">
+			<section id="sec04" class="fadein">
 				<header>
 					<h2><span>NEW CONTETNTS</span></h2>
 				</header>
@@ -118,7 +120,7 @@
 			</section>
 			<!-- //NEW CONTENTS -->
 			<!-- PLACE -->
-			<section id="sec05">
+			<section id="sec05" class="fadein">
 				<header>
 					<h2><span>よくいる場所</span></h2>
 				</header>
@@ -141,7 +143,7 @@
 			</section>
 			<!-- //PLACE -->
 			<footer id="footer">
-				Copyright(c) 2020 Kimura. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+				2020 Tomoya Kimura
 			</footer>
 		</div>
 	</div>
