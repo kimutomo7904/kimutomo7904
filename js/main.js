@@ -37,42 +37,8 @@ $(function(){
 		$(this).next().slideToggle();
 		$('#menuBtn').removeClass('close');
 	});
-
-	$('.col4').onScreen({
-	   container: window,
-	   direction: 'vertical',
-	   doIn: function() {
-	     // 表示されたタイミングの処理
-	   },
-	   doOut: function() {
-	     // 非表示になったタイミングでの処理
-	   },
-	   tolerance: 0,
-	   throttle: 50,
-	   toggleClass: 'onScreen',
-	   lazyAttr: null,
-	   lazyPlaceholder: 'someImage.jpg',
-	   debug: false
-	});
-
-    $('.col4 li img')
-    .hover(
-        function(){
-            $(this).stop().animate({
-                'width':'130px',
-                'height':'130px',
-                'marginTop':'-32px'
-            },'fast');
-        },
-        function () {
-            $(this).stop().animate({
-                'width':'70px',
-                'height':'70px',
-                'marginTop':'0px'
-            },'fast');
-        }
-    );
 });
+
 
 $(document).ready(function () {
 	const element1 = document.getElementById("gal");
@@ -95,12 +61,12 @@ $(document).ready(function(){
 
 
 //分子
-particlesJS('hoge',{
+particlesJS('particle',{
   "particles":{
  
 //--シェイプの設定----------
       "number":{
-        "value":30, //シェイプの数
+        "value":25, //シェイプの数
         "density":{
           "enable":true, //シェイプの密集度を変更するか否か
           "value_area":100 //シェイプの密集度
