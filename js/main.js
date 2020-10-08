@@ -157,15 +157,6 @@ particlesJS('particle',{
  
       "modes":{
 
-//--カーソルとシェイプの間に線が表示される----------
-        "grab":{
-          "distance":400, //カーソルからの反応距離
-          "line_linked":{
-            "opacity":1 //線の透明度
-          }
-        },
-//--------------------
-
 //--シェイプがカーソルから逃げる----------
         "repulse":{
           "distance":200 //カーソルからの反応距離
@@ -179,12 +170,6 @@ particlesJS('particle',{
           "opacity":8, //膨らむシェイプの透明度
           "duration":2, //膨らむシェイプの持続時間(onclick時のみ)
           "speed":3 //膨らむシェイプの速度(onclick時のみ)
-        },
-//--------------------
-
-//--シェイプが増える----------
-        "push":{
-          "particles_nb":4 //増えるシェイプの数
         },
 //--------------------
 
@@ -202,13 +187,9 @@ particlesJS('particle',{
 );
 
 $(function(){
-  $("#biglogo").toggle(function(){
+  $("#biglogo").click(function(){
     $("#biglogo").fadeOut(2000, () => {});
 		$(this).attr('src', 'images/IMG_7708.JPG');
-
-  },
-  function(){
-    $(this).attr('src', 'images/logo (2).png');
   });
 });
 
