@@ -97,7 +97,7 @@ section h2 span {
 	padding-bottom: 80px;
 }
 
-/* SEC03 BRAND
+/* SEC03 WORKS
 ------------------------------------------------------------*/
 .col4 img{
 	margin: 0 auto;
@@ -113,7 +113,7 @@ section h2 span {
 	overflow:hidden;
 }
 
-/* SEC04 PROJECT
+/* SEC04 NEW CONTENTS
 ------------------------------------------------------------*/
 #sec04{
 	padding-bottom: 0 !important;
@@ -125,18 +125,7 @@ section h2 span {
 	padding-bottom: 50px;
 }
 
-.article img{
-	float: left;
-	margin: 5px 20px 20px;
-}
-
-.article p{
-	margin-bottom: 20px;
-}
-
-
-
-/* SEC05 COMPANY
+/* SEC05 PLACE
 ------------------------------------------------------------*/
 #sec05 p{
 	margin-bottom: 5px;
@@ -221,7 +210,7 @@ section h2 span {
 		opacity: .8;
 	}
 	
-	/* SEC03 BRAND
+	/* SEC03 WORKS
 	-----------------*/
 	.col4{
 		text-align: center;
@@ -264,15 +253,6 @@ section h2 span {
 	.innerS{
 		width: 94%;
 		padding-bottom: 30px;
-	}
-	#gallery li{
-		float: none;
-		width: 100%;
-	}
-	.article img{
-		float: none;
-		display: block;
-		margin: 0 auto 20px;
 	}
 	#map iframe{
 		width: 96% !important;
@@ -429,12 +409,15 @@ section h2 span {
 		margin: 55px auto;
 	}	
 }
-/* MESSAGE
+
+/* ABOUT
 	-----------------*/
 .innerS{
 	text-align:center;
 }
 
+/* RECOMMEND
+	-----------------*/
 .abc{
 	text-align:center;
 	margin: 0 auto;
@@ -449,7 +432,7 @@ section h2 span {
 .music{
 	color: red;
 }
-/*ï™éqÇÃÇ‚Ç¬
+/*particle
 -------------*/
 
 #particle{
@@ -487,8 +470,11 @@ section h2 span {
 	transition : all 500ms;
 	}
 
-/* âÊñ ì‡Ç…ì¸Ç¡ÇΩèÛë‘ */
+/* fadeIn
+--------------*/
 .fadein.scrollin {
 	opacity : 1;
 	transform : translate(0, 0);
 	}
+	
+	
