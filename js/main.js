@@ -66,7 +66,7 @@ particlesJS('particle',{
  
 //--シェイプの設定----------
       "number":{
-        "value":25, //シェイプの数
+        "value":10, //シェイプの数
         "density":{
           "enable":true, //シェイプの密集度を変更するか否か
           "value_area":100 //シェイプの密集度
@@ -103,7 +103,7 @@ particlesJS('particle',{
         }
       },
       "size":{
-        "value":4, //シェイプの大きさ
+        "value":70, //シェイプの大きさ
         "random":true, //シェイプの大きさをランダムにするか否か
         "anim":{
           "enable":false, //シェイプの大きさをアニメーションさせるか否か
@@ -116,7 +116,7 @@ particlesJS('particle',{
 
 //--線の設定----------
       "line_linked":{
-        "enable":true, //線を表示するか否か
+        "enable":false, //線を表示するか否か
         "distance":150, //線をつなぐシェイプの間隔
         "color":"#d3d3d3", //線の色
         "opacity":0.4, //線の透明度
