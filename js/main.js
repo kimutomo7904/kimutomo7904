@@ -47,19 +47,6 @@ $(document).ready(function () {
 	});
 });
 
-$(document).ready(function(){
-  $('#tagcloud').tagoSphere({
-    height: 300,
-    width: 300,
-    radius: 150,
-    speed: 0.2,
-    slower: 0.9,
-    timer: 5,
-    fontMultiplier: 15
-  });
-});
-
-
 //分子
 particlesJS('particle',{
   "particles":{
