@@ -1,5 +1,30 @@
-// PhotoSwipe
-initPhotoSwipeFromDOM(".js-my-gallery");
+  $(function(){
+		$('#slick-test').slick({
+				arrows:false,
+		    dots:true,
+		    slidesToShow:4,
+		    responsive:[
+		        {
+		            breakpoint: 1024,
+		            settings:{
+		                slidesToShow:3,
+		            }
+		        },
+		        {
+		            breakpoint: 768,
+		            settings:{
+		                slidesToShow:2,
+		            }
+		        },
+		        {
+		            breakpoint: 480,
+		            settings:{
+		                slidesToShow:1,
+		            }
+		        },
+		    ]	
+		});
+  });
 
 $(function () {
 
@@ -11,11 +36,6 @@ $(function () {
     $("body").addClass("ios");
   }
 
-  //Worksのリンクを有効化
-  //スライド（Swiper）内に記載のリンクを有効にするため下記の記述が必要 (;´･ω･)ｳｰﾝ･･･
-  $(".works-url").on("click", "a", function (e) {
-    e.stopPropagation();
-  });
 
   //ページ内スクロール
   var $nav = $(".gnav");
@@ -33,16 +53,7 @@ $(function () {
       "swing"
     );
     return false;
-  });
-
-  //ページトップ
-  $("#js-page-top").on("click", function () {
-    $("body,html").animate(
-      {
-        scrollTop: 0,
-      },
-      300
-    );
-    return false;
-  });
+  });  
 });
+
+
