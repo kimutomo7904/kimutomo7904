@@ -1,5 +1,7 @@
   $(function(){
 		$('#slick-test').slick({
+		    autoplay:true,
+		    autoplaySpeed:4000,
 				arrows:false,
 		    dots:true,
 		    slidesToShow:4,
@@ -56,4 +58,15 @@ $(function () {
   });  
 });
 
-
+$(function(){
+	$(window).scroll(function (){
+		$('.wrapper').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight + 200){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});
