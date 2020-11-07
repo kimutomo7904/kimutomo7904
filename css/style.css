@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
-	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, ŸàƒSƒVƒbƒN, YuGothic,'ƒqƒ‰ƒMƒmŠpƒS ProN W3', 'Hiragino Kaku Gothic ProN', ƒƒCƒŠƒI, Meiryo,sans-serif;
+	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, ï¿½ï¿½ï¿½Sï¿½Vï¿½bï¿½N, YuGothic,'ï¿½qï¿½ï¿½ï¿½Mï¿½mï¿½pï¿½S ProN W3', 'Hiragino Kaku Gothic ProN', ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½I, Meiryo,sans-serif;
 	font-weight: 300;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
@@ -34,7 +34,7 @@ a:hover, .active{
 a:active, a:focus,input:active, input:focus{outline:0;}
 
 
-/* ƒwƒbƒ_[
+/* ï¿½wï¿½bï¿½_ï¿½[
 ------------------------------------------------------------*/
 
 #mainnav a{
@@ -43,7 +43,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 
-/* ƒtƒbƒ^[
+/* ï¿½tï¿½bï¿½^ï¿½[
 ------------------------------------------------------------*/
 #footer{
 	clear: both;
@@ -53,7 +53,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 
-/* ‹¤’Ê
+/* ï¿½ï¿½ï¿½ï¿½
 ------------------------------------------------------------*/
 h1, h2{
 	font-family: 'Comic Sans MS', 'Noto Sans JP',serif;
@@ -154,9 +154,27 @@ section h2 span {
 	border: 0;
 }
 
+/* footer
+------------------------------------------------------------*/
+.footer {
+	background-color: #1d1d1d;
+  }
+  .inner {
+	max-width: 1380px;
+	margin: 0 auto;
+	padding: 0 40px;
+  }
+  .footer .inner {
+	padding: 30px;
+  }  
+  .copyright {
+	font-size: 10px;
+	text-align: center;
+	color: #8c8c8c;
+  }
+  
 
-
-/* RESPONSIVE İ’è
+/* RESPONSIVE ï¿½İ’ï¿½
 ------------------------------------------------------------*/
 
 @media only screen and (min-width: 800px){
@@ -232,9 +250,9 @@ section h2 span {
 		height: 200px !important;
   }
 	
-  #footer{
-		padding: 30px 10px 70px 0;
-	}
+  .footer .inner {
+    padding: 20px 0;
+  }
 }
 
 
