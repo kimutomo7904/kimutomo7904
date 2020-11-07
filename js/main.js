@@ -40,12 +40,12 @@ $(function(){
 });
 
 
-$(document).ready(function () {
-	const element1 = document.querySelector("#wrk");
-	element1.addEventListener("click", () => {
-		$(document.body).fadeOut("slow", () => {});
-	});
-});
+// $(document).ready(function () {
+// 	const element1 = document.querySelector("#wrk");
+// 	element1.addEventListener("click", () => {
+// 		$(document.body).fadeOut("slow", () => {});
+// 	});
+// });
 
 //分子
 particlesJS('particle',{
@@ -173,13 +173,14 @@ particlesJS('particle',{
   }
 );
 
+//ロゴフェードアウト
 $(function(){
   $("#biglogo").click(function(){
     $("#biglogo").fadeOut(2000, () => {});
-		$(this).attr('src', 'images/IMG_7708.JPG');
   });
 });
 
+//フェードイン
 $(function(){
 	$(window).scroll(function (){
 		$('.fadein').each(function(){
