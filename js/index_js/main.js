@@ -219,9 +219,7 @@ $(function() {
 // animation
 const el1 = document.querySelector("#im1")
 el1.addEventListener("click", function () {
-  if (el1.style.animationPlayState == "paused") {
     el1.style.animationPlayState = "running";
-  }
 })
 
 
