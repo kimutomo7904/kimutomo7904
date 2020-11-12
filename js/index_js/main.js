@@ -1,3 +1,5 @@
+window.onunload = function(){};
+
 $(function(){
 	
 	var
