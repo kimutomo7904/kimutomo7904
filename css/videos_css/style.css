@@ -445,7 +445,8 @@ body {
 /* animation */
 #im1 {
 	animation: sk-bouncedelay 1.4s;
-	animation-timing-function: ease;
+  animation-timing-function: ease;
+  animation-fill-mode: backwards;
 	background-color: #8c8c8c;
 }
 
