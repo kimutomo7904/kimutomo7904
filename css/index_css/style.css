@@ -467,7 +467,7 @@ section h2 span {
 
 /* でかくなるアニメーション */
 #im1 {
-	animation: sk-bouncedelay 1.4s;
+	animation: sk-bouncedelay 1s;
 	animation-timing-function: ease;
 	animation-play-state: paused;
 	background-color: #8c8c8c;
