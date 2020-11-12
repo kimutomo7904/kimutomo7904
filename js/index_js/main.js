@@ -210,7 +210,7 @@ $(function() {
       //setTimeOutを用いて500s後にurl遷移を実行
       setTimeout(function(){
         window.location = url;
-      }, 800);
+      }, 700);
     }
     return false;
   });
