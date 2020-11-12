@@ -208,7 +208,7 @@ $(function() {
       //setTimeOutを用いて500s後にurl遷移を実行
       setTimeout(function(){
         window.location = url;
-      }, 500);
+      }, 300);
     }
     return false;
   });
