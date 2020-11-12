@@ -232,6 +232,14 @@ el1.addEventListener("click", function () {
   }
 })
 
+// 応急措置
+el1.addEventListener("onload", function () {
+  if (el1.style.animationPlayState == "running") {
+    el1.style.animationPlayState = "paused";
+  }
+})
+
+
 // ノート切り替え
 $(function(){
   $("#im2").click(function(){
