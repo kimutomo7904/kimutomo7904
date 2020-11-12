@@ -23,7 +23,7 @@ body{
 }
 
 a{
-	color: #0066ff;
+	color: gray;
 	text-decoration: none;
 }
 
@@ -471,6 +471,7 @@ section h2 span {
 	animation-timing-function: ease;
 	animation-play-state: paused;
 	background-color: #8c8c8c;
+	margin-bottom: 10px;
 }
 
 @keyframes sk-bouncedelay {
