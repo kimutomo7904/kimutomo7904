@@ -212,7 +212,7 @@ $(function() {
 // ビデオ切り替え
 $(function(){
   $("#im1").click(function(){
-    $(this).fadeOut("normal", () => {});
+    $(this).fadeOut("fast", () => {});
     $(this).attr("src","images/mario.png")
     $(this).fadeIn("fast", () => {});
   });
@@ -221,7 +221,7 @@ $(function(){
 // ノート切り替え
 $(function(){
   $("#im2").click(function(){
-    $(this).fadeOut("normal", () => {});
+    $(this).fadeOut("fast", () => {});
     $(this).attr("src","images/note_manga.png")
     $(this).fadeIn("fast", () => {});
   });
