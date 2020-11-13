@@ -42,13 +42,6 @@ $(function(){
 });
 
 
-// $(document).ready(function () {
-// 	const element1 = document.querySelector("#wrk");
-// 	element1.addEventListener("click", () => {
-// 		$(document.body).fadeOut("slow", () => {});
-// 	});
-// });
-
 //分子
 particlesJS('particle',{
   "particles":{
@@ -216,12 +209,14 @@ $(function() {
   });
 });
 
-// animation
-const el1 = document.querySelector("#im1")
-el1.addEventListener("click", function () {
-    el1.style.animationPlayState = "running";
-})
-
+// ビデオ切り替え
+$(function(){
+  $("#im1").click(function(){
+    $(this).fadeOut("normal", () => {});
+    $(this).attr("src","images/mario.png")
+    $(this).fadeIn("fast", () => {});
+  });
+});
 
 // ノート切り替え
 $(function(){
