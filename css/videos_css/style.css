@@ -44,7 +44,7 @@ li {
  
 ---------------------------------*/
 .heading-primary {
-  font-family: "Open sans", sans-serif;
+  font-family: Arial black, "Open sans", sans-serif;
   font-size: 40px;
   font-weight: normal;
   line-height: 1;
@@ -102,7 +102,7 @@ header
 }
 
 .logo-title {
-  font-family: "Open sans", sans-serif;
+  font-family: Arial black,"Open sans", sans-serif;
   font-size: 64px;
   line-height: 1;
   letter-spacing: .2em;
@@ -377,6 +377,7 @@ header
 	}
 
 	#mainnav{
+    font-family: Arial black,"Open sans", sans-serif;
 		position: absolute;
 		top: 0;
 		width: 100%;
@@ -473,7 +474,7 @@ body {
 
 #slick-test {
   margin: 20px;
-  box-shadow: 11px 11px 6px -6px #777;
+  box-shadow: 5px 5x 5px -5px #777;
 }
 
 .slick-testout {
