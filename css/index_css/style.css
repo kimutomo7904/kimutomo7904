@@ -456,7 +456,7 @@ section h2 span {
 	opacity : 0.1;
 	transform : translate(0, 50px);
 	transition : all 500ms;
-	box-shadow: 11px 11px 6px -6px #777;
+	box-shadow: 5px 5px 5px -5px #777;
 	padding-top: 5px;
 	margin: 20px;
 	}
