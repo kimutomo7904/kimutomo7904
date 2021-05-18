@@ -72,7 +72,7 @@ particlesJS('particle',{
         }
       },
       "color":{
-        "value":"#ffabce" //シェイプの色
+        "value":"#808080" //シェイプの色
       },
       "opacity":{
         "value":0.3, //シェイプの透明度
@@ -85,7 +85,7 @@ particlesJS('particle',{
         }
       },
       "size":{
-        "value":100, //シェイプの大きさ
+        "value":20, //シェイプの大きさ
         "random":true, //シェイプの大きさをランダムにするか否か
         "anim":{
           "enable":false, //シェイプの大きさをアニメーションさせるか否か
@@ -98,7 +98,7 @@ particlesJS('particle',{
 
 //--線の設定----------
       "line_linked":{
-        "enable":true, //線を表示するか否か
+        "enable":false, //線を表示するか否か
         "distance":150, //線をつなぐシェイプの間隔
         "color":"#808080", //線の色
         "opacity":0.8, //線の透明度
