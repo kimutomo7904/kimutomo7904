@@ -40,6 +40,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 #mainnav a{
 	color: #000;
 	font-family: Arial black, 'Noto Sans JP',serif;
+	opacity: 0.6;
 }
 
 
@@ -49,6 +50,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 h1, h2{
 	font-family: Arial black, 'Noto Sans JP',serif;
+	opacity: 0.6;
 }
 
 img{
