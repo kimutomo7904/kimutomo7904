@@ -78,7 +78,7 @@ particlesJS('particle',{
         "value":0.3, //シェイプの透明度
         "random":false, //シェイプの透明度をランダムにするか否か
         "anim":{
-          "enable":true, //シェイプの透明度をアニメーションさせるか否か
+          "enable":false, //シェイプの透明度をアニメーションさせるか否か
           "speed":1, //アニメーションのスピード
           "opacity_min":0.1, //透明度の最小値
           "sync":false //全てのシェイプを同時にアニメーションさせるか否か
