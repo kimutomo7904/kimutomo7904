@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Modern+Antiqua);
+@import url(https://fonts.googleapis.com/css2?family=Teko&display=swap);
 
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
@@ -14,7 +15,7 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
-	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, ���S�V�b�N, YuGothic,'�q���M�m�p�S ProN W3', 'Hiragino Kaku Gothic ProN', ���C���I, Meiryo,sans-serif;
+	font: 14px/1.9 'Teko', 'Noto Sans JP', Arial, Verdana, ���S�V�b�N, YuGothic,'�q���M�m�p�S ProN W3', 'Hiragino Kaku Gothic ProN', ���C���I, Meiryo,sans-serif;
 	font-weight: 300;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
@@ -39,7 +40,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 #mainnav a{
 	color: #000;
-	font-family: Arial black, 'Noto Sans JP',serif;
+	font-family: 'Teko', 'Noto Sans JP',serif;
 	opacity: 0.6;
 }
 
@@ -49,7 +50,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 /* 
 ------------------------------------------------------------*/
 h1, h2{
-	font-family: Arial black, 'Noto Sans JP',serif;
+	font-family: 'Teko', 'Noto Sans JP',serif;
 	opacity: 0.6;
 }
 
