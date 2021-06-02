@@ -444,6 +444,7 @@ section h2 span {
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
 	margin: 0 auto;
+	opacity: 80%;
 }
 
 .logo-text{
