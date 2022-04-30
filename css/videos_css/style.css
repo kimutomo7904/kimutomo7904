@@ -55,7 +55,7 @@ li {
 }
 
 .section-heading {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -227,7 +227,7 @@ header
   /*  */
 
   .section {
-    padding: 60px 0;
+    padding: 20px 0;
   }
 
   .section .inner {
@@ -283,7 +283,7 @@ header
 
   /* 繝輔ャ繧ｿ繝ｼ */
   .footer .inner {
-    padding: 20px 0;
+    padding: 5px 0;
   }
 
   #sidebar{
@@ -429,35 +429,6 @@ header
 	}
 }
 
-/*マリオ*/
-
-html, body {
-  height: 80%;
-  width: 100%;
-  margin: 0;
-}
-
-body {
-  height: 100%;
-  background-image: url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/mario.gif?raw=true"), url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/ground.png?raw=true"), url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/bushes.png?raw=true"), url("https://raw.githubusercontent.com/Kageetai/mario-background-parallax/master/img/back.png?raw=true");
-  background-color: #F8E0B0;
-  background-repeat: no-repeat, repeat-x, repeat-x, repeat-x;
-  background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px;
-  animation: back 15s infinite linear;
-}
-
-@keyframes back {
-  0% {
-    background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px;
-  }
-  50% {
-    background-position: left 50% bottom 22px, left -816px bottom 0px, left -508px bottom 22px, left -256px bottom 0px;
-  }
-  100% {
-    background-position: left 30% bottom 22px, left -1632px bottom 0px, left -1016px bottom 22px, left -512px bottom 0px;
-  }
-}
-
 /*slick*/
 .slick-box{
     margin: 100px auto;
@@ -488,3 +459,48 @@ body {
   flex-grow:1;
   margin-bottom: 10px;
 }
+
+/*particle
+-------------*/
+
+#particle{
+  width:100vw;
+  height:100vh;
+  margin:0 auto;
+  background-color:#f7f7f7;
+}
+
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	margin: 0 auto;
+	opacity: 80%;
+}
+
+.logo-text{
+ color: gray;
+ line-height: 100px;
+ text-align: center;
+ font-size: 20px;
+ font-family: serif;
+}
+
+
+/* fadeIn
+--------------*/
+
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, 50px);
+	transition : all 500ms;
+	box-shadow: 5px 5px 10px -5px #777;
+	padding: 0px;
+	margin: 5px;
+	}
+
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
