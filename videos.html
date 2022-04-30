@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
 	<link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="css/videos_css/style.css" media="all" rel="stylesheet" type="text/css" />
+	<script src="js/venders/particle/particles.js"></script>
 </head>
 
 <body>
@@ -16,117 +17,137 @@
 		<div id="sidebar">
 			<div id="sidebarWrap">
 				<nav id="mainnav">
-					<p id="menuWrap"><a href="#" id="menu"><span id="menuBtn"></span></a></p>
+					<p id="menuWrap">
+						<a href="#" id="menu">
+							<span id="menuBtn">
+							</span>
+						</a>
+					</p>
 					<div class="panel">
 						<ul>
 							<li><a href="#top">TOP</a></li>
-							<li><a href="#works-section1">All Videos</a></li>
-							<li><a href="#works-section2">MotionGraphics</a></li>
-							<li><a href="#works-section3">Music</a></li>
+							<li><a href="#works-section1">All</a></li>
+							<li><a href="#works-section2">CM</a></li>
+							<li><a href="#works-section3">Original</a></li>
 						</ul>
 						<ul id="sns">
 							<li><a href="https://twitter.com/chat_boc" target="_blank"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a></li>
-							<li><a href="https://www.instagram.com/kimkim7904/" target="_blank"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a></li>
-							<li><a href="#" target="_blank"><img src="images/iconYouTube.png" width="20" height="20" alt="You Tube"></a></li>
+							<li><a href="https://www.instagram.com/_note___6/" target="_blank"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a></li>
+							<li><a href="https://www.youtube.com/channel/UCoeX1Y5djnbplfFrguxSvqg/videos" target="_blank"><img src="images/iconYouTube.png" width="20" height="20" alt="You Tube"></a></li>
+							<li><a href="https://www.tiktok.com/@kimutomo7904_3/" target="_blank"><img src="images/iconTickTok.jpg" width="28" height="28" alt="Tick Tok"></a></li>
 						</ul>
 					</div>
 				</nav>
 			</div>
     	</div>
-    
+		
 		<!-- .header -->
-		<header class="header">
-			<h1 class="logo">
-				<div class="logo-title">Videos</div>
-				<div class="logo-subtitle"></div>
-			</h1>
-		</header>
+		<div>
+			<div id="particle"></div>
+			<div class = "logo">
+				<div class = "logo-text">
+					<img src="images/図1.png" width="120" height="120" alt="logo">
+				</div>
+   			</div>
+		</div>
 		<!-- /.header -->
 
 		<main class="content">
 			<!-- .works-section -->
 			<section class="works-section section" id="works-section1">
-				<div class="inner">
-					<div class="section-heading">
-						<h2 class="heading-primary">All</h2>
-					</div>
-					<div class="section-lead">
-						<p>作成した動画一覧です。</p>
-						<div id="slick-test">
-							<div>
-								<iframe width="345" height="200" src="https://www.youtube.com/embed/1KhgN81tvgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							<figcaption class="works-body">
-								<figcaption class="works-body">
-									<div class="works-text">ポートフォリオ</div>
-									<div class="works-text">ポートフォリオです。</div>
-									<div class="works-url"><a class="works-url-link" href="https://youtu.be/1KhgN81tvgQ" target="_blank">YouTube</a></div>
-								</figcaption>
-							</div>
-							<div>
-								<iframe width="345" height="200" src="https://www.youtube.com/embed/P57vi9F_QEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								<figcaption class="works-body">
-									<div class="works-title">トイレッタ</div>
-									<div class="works-text">架空のアプリを作ってみました。</div>
-									<div class="works-url"><a class="works-url-link" href="https://youtu.be/P57vi9F_QEc" target="_blank">YouTube</a></div>
-								</figcaption>
-							</div>
-							<div>
-								<iframe width="345" height="200" src="https://www.youtube.com/embed/f54lMfd9670" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	                
-								<figcaption class="works-body">
-									<div class="works-text">道路</div>
-									<div class="works-text">モーショングラフィックスの練習です。</div>
-									<div class="works-url"><a class="works-url-link" href="https://youtu.be/f54lMfd9670" target="_blank">YouTube</a></div>
-								</figcaption>
+				<section class="fadein">
+					<div class="inner">
+						<div class="section-heading">
+							<h2 class="heading-primary">All Videos</h2>
+						</div>
+						<div class="section-lead">
+							<div id="slick-test">
+								<div>
+									<iframe width="345" height="200" src="https://www.youtube.com/embed/1KhgN81tvgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							<figcaption class="works-body">
+									<figcaption class="works-body">
+										<div class="works-url"><a class="works-url-link" href="https://youtu.be/1KhgN81tvgQ" target="_blank">ポートフォリオ</a></div>
+									</figcaption>
+								</div>
+								<div>
+									<iframe width="345" height="200" src="https://www.youtube.com/embed/P57vi9F_QEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<figcaption class="works-body">
+										<div class="works-url"><a class="works-url-link" href="https://youtu.be/P57vi9F_QEc" target="_blank">トイレッタ</a></div>
+									</figcaption>
+								</div>
+								<div>
+									<iframe width="345" height="200" src="https://www.youtube.com/embed/f54lMfd9670" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	                
+									<figcaption class="works-body">
+										<div class="works-url"><a class="works-url-link" href="https://youtu.be/f54lMfd9670" target="_blank">道路</a></div>
+									</figcaption>
+								</div>
+								<div>
+									<iframe width="345" height="200" src="https://www.youtube.com/embed/ayy9QEh5gAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+									<figcaption class="works-body">
+										<div class="works-url"><a class="works-url-link" href="https://youtu.be/ayy9QEh5gAM" target="_blank">記念日メイカー</a></div>
+									</figcaption>
+								</div>	
 							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 			</section>
 			<!-- /.works-section -->
-
 			<!-- .works-section -->
 			<section class="works-section section" id="works-section2">
-				<div class="inner">
-					<div class="section-heading">
-					<h2 class="heading-primary">MotionGraphics</h2>
-				</div>
-				<div class="section-lead">
-					<p>モーショングラフィックを使用した動画です。</p>
-					<div id="slick-testout">
-						<div class="child">
-							<iframe width="345" height="200" src="https://www.youtube.com/embed/1KhgN81tvgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							<figcaption class="works-body">
-							<figcaption class="works-body">
-								<div class="works-text">ポートフォリオ</div>
-								<div class="works-text">ポートフォリオです。</div>
-								<div class="works-url"><a class="works-url-link" href="https://youtu.be/1KhgN81tvgQ" target="_blank">YouTube</a></div>
-							</figcaption>
-						</div>
-						<div class="child">
-							<iframe width="345" height="200" src="https://www.youtube.com/embed/P57vi9F_QEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							<figcaption class="works-body">
-								<div class="works-title">トイレッタ</div>
-								<div class="works-text">架空のアプリを作ってみました。</div>
-								<div class="works-url"><a class="works-url-link" href="https://youtu.be/P57vi9F_QEc" target="_blank">YouTube</a></div>
-							</figcaption>
-						</div>
-						<div class="child">
-							<iframe width="345" height="200" src="https://www.youtube.com/embed/f54lMfd9670" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	                
-							<figcaption class="works-body">
-								<div class="works-text">道路</div>
-								<div class="works-text">モーショングラフィックスの練習です。</div>
-								<div class="works-url"><a class="works-url-link" href="https://youtu.be/f54lMfd9670" target="_blank">YouTube</a></div>
-							</figcaption>
+				<section class="fadein">
+
+					<div class="inner">
+						<div class="section-heading">
+						<h2 class="heading-primary">CM</h2>
+					</div>
+					<div class="section-lead">
+						<div id="slick-testout">
+							<div class="child">
+								<iframe width="345" height="200" src="https://www.youtube.com/embed/P57vi9F_QEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+								<figcaption class="works-body">
+									<div class="works-url"><a class="works-url-link" href="https://youtu.be/P57vi9F_QEc" target="_blank">トイレッタ</a></div>
+								</figcaption>
+							</div>
+							<div class="child">
+								<iframe width="345" height="200" src="https://www.youtube.com/embed/ayy9QEh5gAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+								<figcaption class="works-body">
+									<div class="works-url"><a class="works-url-link" href="https://youtu.be/ayy9QEh5gAM" target="_blank">記念日メイカー</a></div>
+								</figcaption>
+							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 			</section>
 			<!-- /.works-section -->
+						<!-- .works-section -->
+						<section class="works-section section" id="works-section3">
+							<section class="fadein">			
+								<div class="inner">
+									<div class="section-heading">
+									<h2 class="heading-primary">Originals</h2>
+								</div>
+								<div class="section-lead">
+									<div id="slick-testout">
+										<div class="child">
+											<iframe width="345" height="200" src="https://www.youtube.com/embed/gcpazIMKUG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>	                
+											<figcaption class="works-body">
+												<div class="works-url"><a class="works-url-link" href="https://youtu.be/gcpazIMKUG4" target="_blank">インド人の恋愛シミュレーションゲームにありがちなこと</a></div>
+											</figcaption>
+										</div>
+										<div class="child">
+											<iframe width="345" height="200" src="https://www.youtube.com/embed/FPTg6tykXAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+											<figcaption class="works-body">
+												<div class="works-url"><a class="works-url-link" href="https://youtu.be/FPTg6tykXAs" target="_blank">実写×モーション×グラフィック</a></div>
+											</figcaption>
+										</div>
+									</div>
+								</div>
+							</section>
+						</section>
+						<!-- /.works-section -->
 		</main>
-
 		<!-- .footer -->
 		<footer class="footer">
-			<div class="page-top" id="js-page-top">
-				<a href="index.html">メニューへ戻る</a>
-			</div>
 			<div class="inner">
 				<div class="copyright">2022 TOMOYA KIMURA</div>
 			</div>
