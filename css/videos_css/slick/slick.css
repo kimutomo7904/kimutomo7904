@@ -1,4 +1,6 @@
 /* Slider */
+
+
 .slick-slider
 {
     position: relative;
@@ -116,4 +118,22 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.prev-arrow{
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    transform: translate(0,-50%);
+    width: 30px;
+    z-index: 1;
+  }
+
+.next-arrow{
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    transform: translate(0,-50%);
+    width: 30px;
+    z-index: 1;
 }
