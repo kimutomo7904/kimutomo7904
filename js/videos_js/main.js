@@ -39,14 +39,20 @@ $(function(){
 	});
 });
 
+$(function(){
+  $("#slider").slick({
+  });
+});
 
 $(function(){
 		$('#slick-test').slick({
 		    autoplay:true,
 		    autoplaySpeed:4000,
 				arrows:true,
-		    dots:false,
+        adaptiveHeight: true,
+		    dots:true,
 		    slidesToShow:4,
+        pauseOnFocus:true,
 		    responsive:[
 		        {
 		            breakpoint: 1024,
@@ -66,7 +72,9 @@ $(function(){
 		                slidesToShow:1,
 		            }
 		        },
-		    ]	
+		    ],
+        prevArrow: '<img src="./images/左向きの矢印のアイコン素材.png" width="10" height="10" class="prev-arrow">',
+        nextArrow: '<img src="./images/右向きの矢印のアイコン素材.png" width="10" height="10" class="next-arrow">'      
 		});
   });
 
