@@ -44,7 +44,7 @@ $(function(){
 		$('#slick-test').slick({
 		    autoplay:true,
 		    autoplaySpeed:4000,
-				arrows:false,
+				arrows:true,
 		    dots:false,
 		    slidesToShow:4,
 		    responsive:[
