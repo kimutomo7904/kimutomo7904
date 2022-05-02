@@ -122,7 +122,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: 9px;
 
     display: block;
 
@@ -202,3 +202,13 @@
     opacity: .75;
     color: black;
 }
+
+.slick-prev {
+    left: 0;
+    z-index: 1;
+}
+ 
+.slick-next {
+    right: 0;
+}
+
